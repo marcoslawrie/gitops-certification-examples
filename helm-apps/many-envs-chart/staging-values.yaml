@@ -1,3 +1,5 @@
 replicaCount: 1
 image:
+  pullPolicy: IfNotPresent
+  repository: kostiscodefresh/gitops-simple-app
   tag: v3.0
